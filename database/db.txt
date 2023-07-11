@@ -1,0 +1,91 @@
+    package
+        id
+        name
+
+    deadline
+        id
+        name
+
+	orders
+        id
+        web_order_id.
+        package_id
+        website_name
+
+	invoices
+
+	statuses
+
+	payments
+
+	website
+        id      name     slug       currency_id
+
+
+    Currency
+        id
+        na
+        me
+        symbol
+
+    Fare
+        id
+        package_id
+        currency_id
+        amount
+
+    id  Package
+    1   p1
+    2   p2
+    3   p3
+
+    id Currency
+    1   $
+    2   AED
+
+    Fare
+
+    id  name    url     currency_id
+
+
+
+
+
+"automatic_payment_methods": null,
+"canceled_at": null,
+"cancellation_reason": null,
+    [
+        "id": "ch_3LOLuLJiLNjnIG2P0S0CsCD6",
+        "object": "charge",
+        "amount": 154,
+        "amount_captured": 154,
+        "amount_refunded": 0,
+        "application": null,
+        "application_fee": null,
+        "application_fee_amount": null,
+
+        billing_details": {
+            "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "14444",
+                "state": null
+            },
+            "email": "dc.jahanzaib@gmail.com",
+            "name": "jahanzaib",
+            "phone": null
+        },
+
+        "created": 1658496525,
+        "currency": "usd",
+
+        "metadata": {
+            "customer": "jahanzaib",
+            "gateway": "stripe",
+            "invoice_reference": "41789688-9142-41d7-91b3-ac4a083bd1ea",
+            "order_id": "3",
+            "source": "cheap-resume-writer"
+        },
+    ]
